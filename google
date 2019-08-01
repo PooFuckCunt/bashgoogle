@@ -1,0 +1,3 @@
+#!/bin/bash
+STRING=`echo "$@" |sed -e 's/\s\+/+/g'`
+xdg-open http://www.google.com/search?q="$STRING"
